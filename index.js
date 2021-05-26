@@ -31,7 +31,8 @@ if (command === `${prefix}hallo`);{
 
 });
 
-bot.login(process.env.token)
+bot.login(process.env.token);
+
 require('dotenv').config();
 
 //Login
