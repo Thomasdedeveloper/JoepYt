@@ -32,3 +32,10 @@ if (command === `${prefix}hallo`);{
 });
 
 bot.login(process.env.token)
+require('dotenv').config();
+
+//Login
+client.login(process.env.TOKEN);
+
+//Check op prefix
+if (!message.content.startsWith(process.env.PREFIX)) return;
